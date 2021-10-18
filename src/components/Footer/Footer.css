@@ -1,0 +1,7 @@
+.list-style{
+    list-style: none;
+}
+.list-style li{
+    color: rgb(214, 70, 51);
+    margin-left: 50px;
+}
