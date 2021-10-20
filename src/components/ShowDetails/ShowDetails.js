@@ -2,6 +2,7 @@ import React, {useState,useEffect } from 'react';
 import { useParams } from 'react-router';
 
 
+
 const ShowDetails = () => {
     let {detailId} = useParams();
     const [singleServices,setSingleServices]=useState([])

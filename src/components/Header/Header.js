@@ -8,7 +8,7 @@ const Header = () => {
   const {user,logOut} = useAuth()
     return (
         <>
-  <Navbar bg="light" variant="dark" sticky="top" collapseOnSelect expand="lg">
+  <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
     <Container>
     {/* <Navbar.Brand href="#home">Navbar</Navbar.Brand> */}
     <img
@@ -26,6 +26,7 @@ const Header = () => {
       </Navbar.Text>
       <Nav.Link as={Link} to="/home">Home</Nav.Link>
       <Nav.Link as={Link} to="/treatments">Treatments</Nav.Link>
+      <Nav.Link as={Link} to="/doctors">Doctors</Nav.Link>
       {
         !user.email && <Nav.Link as={Link} to="/login">Login</Nav.Link>
       }
@@ -34,7 +35,6 @@ const Header = () => {
       }
       {
         user.email &&  <button onClick={logOut}>logout</button>
-
       }
     </Navbar.Collapse>
     </Container>

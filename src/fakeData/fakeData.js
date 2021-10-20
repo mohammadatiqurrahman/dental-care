@@ -138,3 +138,97 @@ console.log(dental);
 
 //     }
 // ];
+
+const doctors = [
+    {
+        name:'Dr. Rav Ajhua',
+        edu: 'MBBS, BDS, London',
+        title: 'Cosmetic dentistry Specialist',
+        key: 1,
+        img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/d6/c2a550312d11e8a1a3b7898153781d/ravahuja.jpg?auto=format%2Ccompress&dpr=1&w=200&h=200'
+    },
+    {
+        name:'Dr. Aije Egwaikhide',
+        edu: 'MBBS,BDS, Rajshahi Medical',
+        key: 2,
+        title: 'Endodontic procedures Specialist',
+        img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/36/b856268a7546c0a306bbd7032344e4/rsz_1img_2891-1.jpg?auto=format%2Ccompress&dpr=1&w=200&h=200'
+    },
+    {
+        name:'Romeo Kienzler',
+        edu: 'MBBS, BDS, Dhaka Medical',
+        title: 'Pediatric dental Specialist',
+        key: 3,
+        img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/01/18adc0d3fd11e69f887dc4d1bcf68d/DSC04911cropcoursera.jpg?auto=format%2Ccompress&dpr=1&w=200&h=200'
+    },
+    {
+        name:'Dr. Joseph Santarcangelo',
+        edu: 'MBBS,BDS Surgen, BSRMU',
+        title: 'Periodontal Specialist',
+        key: 4,
+        img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/19/c6bf4030a611e897095b4bb8907d1a/joseph.jpg?auto=format%2Ccompress&dpr=1&w=200&h=200'
+    },
+    {
+        name:'Dr. Hima Vasudevan',
+        edu: 'MBBS, BDS, Surgen, Cumilla Medical',
+        title: 'Orthodontic Specialist',
+        key: 5,
+        img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/65/513c3032a711e8a92619327504f39a/Coursera_profile_pic.jpg?auto=format%2Ccompress&dpr=1&w=200&h=200'
+    },
+    {
+        name:'Dr. Saeed  Azarbhaijan',
+        edu: 'MBBS, BDS, Rongpur Medical',
+        title: 'Prosthodontic Specialist',
+        key: 6,
+        img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/a0/8de0c0730a11e8a983190cf39a362d/My_Photo_lowsize3-copy.jpg?auto=format%2Ccompress&dpr=1&w=200&h=200'
+    }
+];
+//     {
+//         name:'Alex Akelson',
+//         title: 'Ph.D., Data Scientist',
+//         key: 7,
+//         learner: 32534,
+//         courses: 4,
+//         img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/4e/41fff0261f11e8add0f59095431cc6/Alex-Aklson.jpg?auto=format%2Ccompress&dpr=1&w=200&h=200'
+//     },
+//     {
+//         name:'Rav Ajhua',
+//         title: 'Senior Developer Advocate with IBM Center for Open Data and AI Technologies',
+//         key: 8,
+//         learner: 67434,
+//         courses: 8,
+//         img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/c3/7c9adc4bec4b2b85dea617b09ebf61/Svetlana.jpg?auto=format%2Ccompress&dpr=1&w=200&h=200'
+//     },
+//     {
+//         name:'Polong Ling',
+//         title: 'Data Scientist',
+//         key: 9,
+//         learner: 12534,
+//         courses: 3,
+//         img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/b8/67c3b032a911e8a8521b2c6f10f72b/IMG_9957-2.jpg?auto=format%2Ccompress&dpr=1&w=200&h=200'
+//     },
+//     {
+//         name:'Ajim Hirjani',
+//         title: 'Cognitive Data Scientist',
+//         key: 10,
+//         learner: 16534,
+//         courses: 2,
+//         img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/02/4bcc26dc094ee2a55e42ce83f51d3e/Profile-Picture.jpg?auto=format%2Ccompress&dpr=1&w=200&h=200'
+//     },
+//     {
+//         name:'Saishruthi Swaminathan',
+//         title: 'Data Scientist and Developer Advocate',
+//         key: 11,
+//         learner: 162534,
+//         courses: 6,
+//         img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/91/c9e62d482b46fc94cf71b00085c6c7/saishruthi_swaminathan.jpg?auto=format%2Ccompress&dpr=1&w=200&h=200'
+//     },
+//     {
+//         name:'Yan Luo',
+//         title: 'Ph.D., Data Scientist and Developer',
+//         key: 12,
+//         learner: 52534,
+//         courses: 4,
+//         img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/0c/2d0699acd44e3fbef68aaf64fe1040/Yan-Luo-Instructor-Photo.jpg?auto=format%2Ccompress&dpr=1&w=200&h=200'
+//     }
+// ];
